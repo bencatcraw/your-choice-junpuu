@@ -1,0 +1,44 @@
+body{
+  background-color:black  ;
+  color: grey;
+  padding-top:50px;
+}
+@font-face {
+  font-family: Typewriter;
+  src: url(Typewriter.ttf);
+}
+h1{
+  font-family: Typewriter, sans-serif;
+  font-size: 25px;
+  color:white;
+  line-height: 1.5rem;
+}
+h3{
+  font-family: Typewriter, sans-serif;
+  font-size: 15px;
+  color:white;
+  line-height: 0.75rem;
+
+}
+.navbar-nav{
+  padding-left:250px;
+}
+.center-img img{
+  width: 600px;
+  height: 216px;
+}
+.center-vertically {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+.container{
+  padding-left:10rem;
+  padding-right:10rem;
+}
+.nav-link{
+  color:grey;
+}
+.navbar-nav a:hover { color: dimgrey !important; }
